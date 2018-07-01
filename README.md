@@ -13,10 +13,11 @@ Have your private key already generated from your local wallet, you need to have
 
 You can generate one by opening the console on your wallet and type:
 
-masternode genkey
+masternode genkey 
 on your vps log in as root and run:
 
 bash <( curl https://raw.githubusercontent.com/moondust2010/KRT-MN-INSTALL/master/install.sh )
+
 Some in script instructions will ask you for the:
 
 IP - this is auto filled
