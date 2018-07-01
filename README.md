@@ -3,9 +3,12 @@ Installscript for Kreita Masternodes, written by Kurbz and
 modified by Moondust2010 because the MN dont sync in the original Script.
 
 
-This guide covers only the VPS setup.
+This guide covers only the VPS setup. If you need a VPS Service, please check out:
+https://www.vultr.com/?ref=7443282
 
-Your Wallet should be configured with relevant MNs setup and ready to start.
+5$ VPS are the best choice !
+
+Your Wallet on your home PC / Laptop should be configured with relevant MNs setup and ready to start.
 
 Run on Ubuntu 16.04 only.
 
@@ -16,7 +19,7 @@ You can generate one by opening the console on your wallet and type:
 masternode genkey 
 on your vps log in as root and run:
 
-bash <( curl https://raw.githubusercontent.com/moondust2010/KRT-MN-INSTALL/master/install.sh )
+bash <( curl https://raw.githubusercontent.com/moondust2010/KRT-MN-INSTALL/master/krt-install.sh )
 
 Some in script instructions will ask you for the:
 
