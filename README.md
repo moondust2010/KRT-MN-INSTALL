@@ -1,4 +1,4 @@
-#KRT-MN-INSTALL
+# KRT-MN-INSTALL
 
 unoffical but working explorer: http://46.101.190.123:3001/
 
@@ -36,30 +36,35 @@ You can find the current block number in your wallet info.
 
 When block count = current block leave the script running and Goto your wallet and start the relevant MN.
 
-(If you notice you get stuck on a block, reboot the vps, log back in and run 'krtd getblockcount' until syncd then send start from local wallet) The script will automatically exit when the start trigger hits the vps..
+* (If you notice you get stuck on a block, reboot the vps, log back in and run 'krtd getblockcount' until syncd then send start from local wallet) The script will automatically exit when the start trigger hits the vps..
 
-(if it does not exit then there is an issue, hit CTRL+C on the vps and check your status as below) to double confirm, or check status on your vps, run:
-
+* (if it does not exit then there is an issue, hit CTRL+C on the vps and check your status as below) to double confirm, or check status on your vps, run:
+````
 ----> krtcli masternode status
-
+````
 You should receive a status 4 reply, your done!!.
 
-If not talk to discord channel support. https://discord.gg/Zepf4Bb
+* If not talk to discord channel support. https://discord.gg/Zepf4Bb
 
 Commands on your Linux VPS Console:
 
 stop the daemon:
+````
 krtcli stop
-
+````
 Checking Blocksync:
+````
 krtcli getinfo
-
+````
 open the Conf File:
+````
 nano /root/.krt/krt.conf
-
+````
 Start of krtd Daemon:
+````
 sudo systemctl start krtd
-
+````
 Masternode Status:
+````
 krtcli masternode status
-
+````
