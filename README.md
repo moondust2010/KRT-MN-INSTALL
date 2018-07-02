@@ -1,4 +1,7 @@
 KRT-MN-INSTALL
+
+unoffical but working explorer: http://46.101.190.123:3001/
+
 Installscript for Kreita Masternodes, written by Kurbz and modified by Moondust2010
 because the MN dont sync in the original Script and the offical Explorer stuck sometimes.
 
