@@ -1,4 +1,4 @@
-KRT-MN-INSTALL
+#KRT-MN-INSTALL
 
 unoffical but working explorer: http://46.101.190.123:3001/
 
@@ -17,13 +17,13 @@ Run on Ubuntu 16.04 only.
 Have your private key already generated from your local wallet, you need to have 1 key per MN you are running.
 
 You can generate one by opening the console on your wallet and type:
-
+````
 ---> masternode genkey
-
+````
 on your vps log in as root and run:
-
+````
 ---->  bash <( curl https://raw.githubusercontent.com/moondust2010/KRT-MN-INSTALL/master/krt-install.sh )
-
+````
 Some in script instructions will ask you for the:
 
 IP - this is auto filled
