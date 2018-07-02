@@ -7,7 +7,9 @@ because the MN dont sync in the original Script and the offical Explorer stuck s
 
 This guide covers only the VPS setup. I hope you know how to setup the Collateral.
 
-If you need a VPS Service, please check out: https://www.vultr.com/?ref=7443282
+If you need a VPS Service, please check out:
+* https://www.vultr.com/?ref=7443282
+* https://m.do.co/c/812e8283318f (Digitalocean)
 5$ VPS are the best choice !
 
 Your Wallet on your home PC / Laptop should be configured with relevant MNs setup and ready to start.
