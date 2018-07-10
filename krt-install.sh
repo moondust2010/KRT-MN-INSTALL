@@ -36,7 +36,7 @@ clear
 echo "
  |   +------- MASTERNODE INSTALLER v1.1 -------+  |
  |   KRT Installer by Kurbz modified by Moondust  |
- |   for Ununtu 16.04 only                        |
+ |   for Ubuntu 16.04 only                        |
  +------------------------------------------------+
 "
 
